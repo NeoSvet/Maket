@@ -5,5 +5,9 @@
     </style>
     <style name="ActionBarStyle" parent="Widget.MaterialComponents.ActionBar.Solid">
         <item name="background">@color/black</item>
+        <item name="subtitleTextStyle">@style/SubtitleStyle</item>
+    </style>
+    <style name="SubtitleStyle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+        <item name="android:textSize">10dp</item>
     </style>
 </resources>

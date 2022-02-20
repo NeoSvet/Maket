@@ -4,4 +4,12 @@
     <string name="classes">Classes</string>
     <string name="tasks">Tasks</string>
     <string name="favorite">Favorite</string>
+    <string name="welcome">Hi, Mike!</string>
+    <string name="search">Search</string>
+    <string name="preferences">Preferences</string>
+    <string name="details">Details</string>
+    <string name="icons">Icons</string>
+    <string name="today">Today, 1 June</string>
+    <string name="time">&#9719;</string>
+    <string name="student">Student</string>
 </resources>
