@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BottomMenuItemActive">
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="ActionBarStyle" parent="Widget.MaterialComponents.ActionBar.Solid">
+        <item name="background">@color/black</item>
+    </style>
+</resources>
