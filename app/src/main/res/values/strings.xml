@@ -2,6 +2,7 @@
     <string name="app_name">Maket</string>
     <string name="home">Home</string>
     <string name="classes">Classes</string>
+    <string name="classes_format">%d classes today</string>
     <string name="tasks">Tasks</string>
     <string name="favorite">Favorite</string>
     <string name="welcome">Hi, Mike!</string>
@@ -10,6 +11,13 @@
     <string name="details">Details</string>
     <string name="icons">Icons</string>
     <string name="today">Today, 1 June</string>
-    <string name="time">&#9719;</string>
+    <string name="time_format">&#9719; %s</string>
+    <string name="timeleft_format">&#9719; %d days left</string>
     <string name="student">Student</string>
+    <string name="timer_title">Are you ready for exams?</string>
+    <string name="days">Days</string>
+    <string name="hours">Hours</string>
+    <string name="minutes">Minutes</string>
+    <string name="homework">Homework</string>
+    <string name="open_in">Open in</string>
 </resources>
