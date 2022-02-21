@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:background="@drawable/bottom_background"
-        android:padding="16dp"
+        android:padding="@dimen/def_indent"
         app:itemBackground="@drawable/bottom_item"
         app:itemIconTint="@color/bottom_icon"
         app:itemIconSize="24dp"
