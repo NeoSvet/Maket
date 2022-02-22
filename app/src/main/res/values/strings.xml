@@ -11,6 +11,7 @@
     <string name="details">Details</string>
     <string name="icons">Icons</string>
     <string name="today">Today, 1 June</string>
+    <string name="teacher_format">Teacher: %s</string>
     <string name="time_format">&#9719; %s</string>
     <string name="timeleft_format">&#9719; %d days left</string>
     <string name="student">Student</string>

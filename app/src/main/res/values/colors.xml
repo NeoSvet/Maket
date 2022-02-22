@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="main_bg">#1b292a</color>
     <color name="card_bg">#24252a</color>
     <color name="icon_bg">#2b2e35</color>
     <color name="transparent_bg">#3324252a</color>
@@ -8,4 +7,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="gray">#999999</color>
     <color name="red">#BF0101</color>
+    <color name="timeline">#553af486</color>
 </resources>
