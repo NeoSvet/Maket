@@ -9,11 +9,15 @@
         app:showAsAction="always" />
     <item
         android:id="@+id/menu_details"
-        android:icon="@drawable/details"
+        android:checkable="true"
+        android:checked="true"
+        android:icon="@drawable/details_checked"
         android:title="@string/details"
         app:showAsAction="always" />
     <item
         android:id="@+id/menu_icons"
+        android:checkable="true"
+        android:checked="false"
         android:icon="@drawable/icons"
         android:title="@string/icons"
         app:showAsAction="always" />
