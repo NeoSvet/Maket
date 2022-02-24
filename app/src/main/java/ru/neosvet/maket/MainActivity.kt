@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
             setContentView(it.root)
         }
         initBottomNavigation()
-        openFragment(ClassesFragment())
+        openFragment(HomeFragment())
     }
 
     private fun initBottomNavigation() = binding?.run {
