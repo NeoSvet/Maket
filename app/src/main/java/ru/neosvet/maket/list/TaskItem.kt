@@ -38,7 +38,10 @@ class TaskItem(
                 tvTime.setTextColor(ctx.getWarningColor())
             else
                 tvTime.setTextColor(ctx.getFadedColor())
-            val adapter = StudentsAdapter(task.students)
+            val adapter = StudentsAdapter(
+                task.students,
+                root.context.getColor(R.color.card_bg)
+            )
             rvStudents.adapter = adapter
         }
     }

@@ -9,7 +9,7 @@ import ru.neosvet.maket.databinding.ItemStudentBinding
 
 class StudentsAdapter(
     private val students: List<Student>,
-    private val bgId: Int = R.drawable.student_bg
+    private val strokeColor: Int
 ) : RecyclerView.Adapter<StudentItem>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) =
@@ -19,7 +19,7 @@ class StudentsAdapter(
                 parent,
                 false
             ),
-            bgId
+            strokeColor
         )
 
     override fun onBindViewHolder(holder: StudentItem, position: Int) {

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="card_bg">#24252a</color>
+    <color name="bigcard_bg">#31eb8f</color>
     <color name="icon_bg">#2b2e35</color>
     <color name="transparent_bg">#3324252a</color>
     <color name="black">#FF000000</color>
