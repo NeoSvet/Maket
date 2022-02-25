@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BottomMenuItemActive">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="ActionBarStyle" parent="Widget.MaterialComponents.ActionBar.Solid">
+        <item name="background">@color/black</item>
+        <item name="subtitleTextStyle">@style/SubtitleStyle</item>
+    </style>
+
+    <style name="SubtitleStyle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="TimerStyle">
+        <item name="android:padding">@dimen/mini_indent</item>
+        <item name="android:layout_marginTop">@dimen/def_indent</item>
+        <item name="android:layout_marginStart">6dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/transparent_field</item>
+        <item name="android:textSize">@dimen/timer_text</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>

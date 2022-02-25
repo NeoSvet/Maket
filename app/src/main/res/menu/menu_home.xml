@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_preferences"
+        android:icon="@drawable/preferences"
+        android:title="@string/preferences"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_student"
+        android:icon="@drawable/student"
+        android:title="@string/student"
+        app:actionLayout="@layout/item_avatar"
+        app:showAsAction="always" />
+</menu>

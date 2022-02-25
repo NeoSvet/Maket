@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/def_indent"
+    android:background="@drawable/bright_field"
+    android:padding="@dimen/def_indent">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/timer_title"
+        android:textColor="@color/white"
+        android:textSize="@dimen/timer_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_days1"
+        style="@style/TimerStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        app:layout_constraintEnd_toStartOf="@id/tv_days2"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_title"
+        tools:text="0" />
+
+    <TextView
+        android:id="@+id/tv_days2"
+        style="@style/TimerStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@id/iv_separator1"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toEndOf="@id/tv_days1"
+        app:layout_constraintTop_toBottomOf="@id/tv_title"
+        tools:text="0" />
+
+    <ImageView
+        android:id="@+id/iv_separator1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/mini_indent"
+        android:src="@drawable/time_separator"
+        app:layout_constraintBottom_toBottomOf="@id/tv_days2"
+        app:layout_constraintEnd_toStartOf="@id/tv_hours1"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toEndOf="@id/tv_days2"
+        app:layout_constraintTop_toTopOf="@id/tv_days2" />
+
+    <TextView
+        android:id="@+id/tv_hours1"
+        style="@style/TimerStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@id/tv_hours2"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toEndOf="@id/iv_separator1"
+        app:layout_constraintTop_toBottomOf="@id/tv_title"
+        tools:text="0" />
+
+    <TextView
+        android:id="@+id/tv_hours2"
+        style="@style/TimerStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@id/iv_separator2"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toEndOf="@id/tv_hours1"
+        app:layout_constraintTop_toBottomOf="@id/tv_title"
+        tools:text="0" />
+
+    <ImageView
+        android:id="@+id/iv_separator2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/mini_indent"
+        android:src="@drawable/time_separator"
+        app:layout_constraintBottom_toBottomOf="@id/tv_hours2"
+        app:layout_constraintEnd_toStartOf="@id/tv_minutes1"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toEndOf="@id/tv_hours2"
+        app:layout_constraintTop_toTopOf="@id/tv_hours2" />
+
+    <TextView
+        android:id="@+id/tv_minutes1"
+        style="@style/TimerStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@id/tv_minutes2"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toEndOf="@id/iv_separator2"
+        app:layout_constraintTop_toBottomOf="@id/tv_title"
+        tools:text="0" />
+
+    <TextView
+        android:id="@+id/tv_minutes2"
+        style="@style/TimerStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toEndOf="@id/tv_minutes1"
+        app:layout_constraintTop_toBottomOf="@id/tv_title"
+        tools:text="0" />
+
+    <TextView
+        android:id="@+id/tv_days"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/days"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@id/tv_days2"
+        app:layout_constraintStart_toStartOf="@id/tv_days1"
+        app:layout_constraintTop_toBottomOf="@id/tv_days1" />
+
+    <TextView
+        android:id="@+id/tv_hours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hours"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@id/tv_hours2"
+        app:layout_constraintStart_toStartOf="@id/tv_hours1"
+        app:layout_constraintTop_toBottomOf="@id/tv_hours1" />
+
+    <TextView
+        android:id="@+id/tv_minutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/minutes"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@id/tv_minutes2"
+        app:layout_constraintStart_toStartOf="@id/tv_minutes1"
+        app:layout_constraintTop_toBottomOf="@id/tv_minutes1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
