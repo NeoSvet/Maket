@@ -33,7 +33,7 @@ class BigLessonItem(
             tvDescription.text = lesson.description
             pLink.visibility = if (lesson.videoLink == null) View.GONE else View.VISIBLE
             lesson.students?.let {
-                val adapter = StudentsAdapter(it)
+                val adapter = StudentsAdapter(it, R.drawable.student_bg2)
                 rvStudents.adapter = adapter
             }
         }
