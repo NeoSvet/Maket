@@ -25,9 +25,9 @@ object FakeLessons {
         time = "10:00 - 11:35",
         description = "Intensive preparation for The Junior World Championship in Los Angeles",
         students = listOf(
-            Student(R.drawable.sportman1, R.drawable.student_bg5),
-            Student(R.drawable.sportman2, R.drawable.student_bg5),
-            Student(R.drawable.sportman3, R.drawable.student_bg5)
+            Student(R.drawable.sportman1, -10421570), //#60fabe
+            Student(R.drawable.sportman2, -10421570),
+            Student(R.drawable.sportman3, -10421570)
         )
     )
 }

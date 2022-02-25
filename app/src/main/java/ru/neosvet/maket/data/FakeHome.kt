@@ -33,8 +33,8 @@ class FakeHome : HomeData {
             deadLine = TimeUtils.getNowPlusDays(2),
             description = "Read scenes 1.1-1.12 of The Master and Margarita.",
             students = listOf(
-                Student(R.drawable.man, R.drawable.student_bg1),
-                Student(R.drawable.woman, R.drawable.student_bg2)
+                Student(R.drawable.man, -402834), //#f9da6e
+                Student(R.drawable.woman, -10102021) //#65dafb
             )
         )
     }
@@ -46,8 +46,8 @@ class FakeHome : HomeData {
             deadLine = TimeUtils.getNowPlusDays(5),
             description = "Learn Newtons's laws motion",
             students = listOf(
-                Student(R.drawable.man2, R.drawable.student_bg3),
-                Student(R.drawable.woman2, R.drawable.student_bg4)
+                Student(R.drawable.man2, -10682414), //#5cffd2
+                Student(R.drawable.woman2, -10311937) //#62a6ff
             )
         )
     }
